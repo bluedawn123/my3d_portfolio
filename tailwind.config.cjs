@@ -5,15 +5,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#000f06",
-        secondary: "#aaa6c3",
-        tertiary: "#151030",
-        "black-100": "#100d25",
+        primary: "#030a08",    //배경색. 가장 어두운 초록색
+        secondary: "#5e7565",  //navbar, 기타 글자색. 가장 밝은 초록색
+        tertiary: "#0f3322",   //overview, project, 이메일보내기 여백 색. 배경보다 조금 밝은 초록색
+        "black-100": "#071a0d",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
       },
       boxShadow: {
-        card: "0px 35px 120px -15px #211e35",
+        card: "0px 35px 120px -15px #1d3629",
       },
       screens: {
         xs: "450px",
