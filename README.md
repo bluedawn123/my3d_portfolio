@@ -104,7 +104,7 @@ npm run dev
 
 [http://localhost:5173](http://localhost:5173)  에서 열면 됩니다.
 
-## <a name="snippets">🕸️ Snippets</a>
+## <a name="snippets">🕸️ Snippets</a>(변경된 코드들이 많아, 실제 폴더의 구조와 내용을 확인해주세요)
 
 <details>
 <summary><code>constants.js</code></summary>
