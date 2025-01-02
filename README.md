@@ -14,7 +14,8 @@
   <h3 align="center">A 3D Developer Portfolio</h3>
 
    <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
+     3D 기술을 활용한 포트폴리오 웹 애플리케이션입니다. React와 Three.js를 기반으로 구현되었으며, TailwindCSS로 스타일링하고 Vite로 빌드되었습니다.
+    https://github.com/adrianhajdin/project_3D_developer_portfolio 를 베이스로 제작되었으며, 특정 컴포넌트의 motion부분과 3d_models은 수정하지 않고 그대로 사용하였습니다.
     </div>
 </div>
 
