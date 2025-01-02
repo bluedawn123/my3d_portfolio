@@ -25,7 +25,7 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-By developing this project, you will gain hands-on experience in crafting immersive web experiences, mastering 3D libraries, and implementing engaging animations. The combination of creativity and technical skills showcased in this project serves as an excellent learning opportunity for developers seeking to enhance their portfolio and captivate users with cutting-edge web design.
+3D 기술을 활용한 포트폴리오 웹 애플리케이션입니다. React와 Three.js를 기반으로 구현되었으며, TailwindCSS로 스타일링하고 Vite로 빌드되었습니다. 이 프로젝트는 adrianhajdin/project_3D_developer_portfolio를 기반으로 제작되었으며, 일부 컴포넌트(motion 부분 및 3D 모델)는 수정하지 않고 그대로 사용했습니다. 하지만 EmailJS와 같은 기능을 포함해 기존 코드를 개인화하였습니다.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -39,31 +39,30 @@ By developing this project, you will gain hands-on experience in crafting immers
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Customizable 3D Hero Section**: Includes a 3D desktop model easily customizable to suit specific needs.
+👉 커스터마이징 가능한 3D 히어로 섹션: 3D 데스크톱 모델 포함, 특정 요구 사항에 맞게 쉽게 커스터마이징 가능.
 
-👉 **Interactive Experience and Work Sections**: Utilizes animations powered by framer motion for engaging user experience.
+👉 인터랙티브 경험 및 작업 섹션: 프레이머 모션(Framer Motion)으로 구동되는 애니메이션을 활용하여 몰입감 있는 사용자 경험 제공.
 
-👉 **3D Skills Section**: Showcases skills using 3D geometries through three.js and React Three fiber
+👉 3D 스킬 섹션: Three.js와 React Three Fiber를 사용하여 3D 기하학으로 기술을 시각적으로 표현.
 
-👉 **Animated Projects and Testimonials**: Features animated sections using framer motion for projects and client testimonials.
+👉 애니메이션 프로젝트 및 후기 섹션: 프레이머 모션을 활용해 프로젝트와 클라이언트 후기를 애니메이션으로 표현.
 
-👉 **Contact Section with 3D Earth Model**:Integrates a 3D earth model with email functionality powered by emailjs.
+👉 3D 지구 모델을 포함한 연락처 섹션: 3D 지구 모델과 EmailJS로 구동되는 이메일 기능 통합.
 
-👉 **3D Stars**: Generate stars progressively at random positions using Three.js for background display.
+👉 3D 별 배경: Three.js를 활용하여 배경에 무작위로 별을 생성.
 
-👉 **Consistent Animations**: Implements cohesive animations throughout the website using framer motion.
+👉 일관된 애니메이션: 프레이머 모션을 사용하여 웹사이트 전반에 걸쳐 통일된 애니메이션 구현.
 
-👉 **Responsive Design**: Ensures optimal display and functionality across all devices.
+👉 반응형 디자인: 모든 기기에서 최적의 디스플레이와 기능 보장.
 
-and many more, including code architecture and reusability 
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
-Follow these steps to set up the project locally on your machine.
+로컬에서 실행하고 싶으면 아래를 따라해 보세요.
 
 **Prerequisites**
 
-Make sure you have the following installed on your machine:
+아래 방법대로 설치하시오
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
@@ -72,8 +71,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone git@github.com:adrianhajdin/project_3D_developer_portfolio.git
-cd project_3D_developer_portfolio
+git clone git@github.com:bluedawn123/my3d_portfolio.git
+cd my3d_portfolio
 ```
 
 **Installation**
@@ -103,7 +102,7 @@ Replace the placeholder values with your actual EmailJS credentials. You can obt
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+[http://localhost:5173](http://localhost:5173)  에서 열면 됩니다.
 
 ## <a name="snippets">🕸️ Snippets</a>
 
