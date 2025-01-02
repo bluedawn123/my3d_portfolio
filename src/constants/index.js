@@ -23,7 +23,13 @@ import {
   jobit,
   tripguide,
   threejs,
+  
 } from "../assets";
+//이렇게 하는 이유는 파일 자체가 객체나 모듈로 보내지 않아서.. 그냥 귀찮아서 이렇게씀.
+//만약 위처럼 쓰고 싶으면, assets의 index.js에서 수정하면 되나...굳이..?
+import uniqlo from "../assets/uniqlo.png";
+import kia from "../assets/kia.png";
+import lms from "../assets/lms.png";
 
 export const navLinks = [
   {
@@ -190,8 +196,8 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: uniqlo,
+    source_code_link: "https://github.com/bluedawn123/firstProject",
   },
   {
     name: "기아 홈페이지 리뉴얼",
@@ -211,8 +217,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: kia,
+    source_code_link: "https://github.com/eunhwa-a11y/KIA-Renewal-Project",
   },
   {
     name: "Lms 웹사이트 개설",
@@ -236,8 +242,8 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: lms,
+    source_code_link: "https://github.com/bluedawn123/lms_project",
   },
 ];
 
