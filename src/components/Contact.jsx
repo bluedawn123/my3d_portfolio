@@ -17,6 +17,7 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
+  //입력시 관련 정보도 변경되어 저장
   const handleChange = (e) => {
     const { target } = e;
     const { name, value } = target;
@@ -31,36 +32,32 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
+    //서비스 아이디 service_x9pm8fc
+    //템플릿 아이디 template_lul9rtr
+    //퍼플릭 키 rwBXCfutcdS149lwj
+
+    emailjs.send(
+      "service_ekmtt67",
+      "template_lul9rtr",
+      {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "haemilyjh",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "haemilyjh@naver.com",
           message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+      },
+      "rwBXCfutcdS149lwj"
       )
       .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
-
-          alert("Ahh, something went wrong. Please try again.");
-        }
+          (response) => {
+              console.log("Email sent successfully:", response.status, response.text);
+              setLoading(false);
+          },
+          (error) => {
+              console.error("Email send failed:", error);
+              setLoading(false);
+              alert("앗.. 무언가 잘못되었네요. 확인해주세요.");
+          }
       );
   };
 
@@ -72,8 +69,8 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <p className={styles.sectionSubText}>연락하고 싶으시다면</p>
+        <h3 className={styles.sectionHeadText}>아래를 작성!</h3>
 
         <form
           ref={formRef}
@@ -81,35 +78,35 @@ const Contact = () => {
           className='mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Name</span>
+            <span className='text-white font-medium mb-4'>당신의 이름</span>
             <input
               type='text'
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="당신의 이름은 무엇입니까?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your email</span>
+            <span className='text-white font-medium mb-4'>당신의 이메일</span>
             <input
               type='email'
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="당신의 이메일은 무엇입니까?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Message</span>
+            <span className='text-white font-medium mb-4'>무엇을 보내고 싶으신가요?</span>
             <textarea
               rows={7}
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='보내고 싶은 내용을 입력해주세요'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
