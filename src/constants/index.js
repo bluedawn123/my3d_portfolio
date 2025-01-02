@@ -30,6 +30,10 @@ import {
 import uniqlo from "../assets/uniqlo.png";
 import kia from "../assets/kia.png";
 import lms from "../assets/lms.png";
+import uni from "../assets/university.png";
+import intern from "../assets/intern.png";
+import coding from "../assets/coding.png";
+
 
 export const navLinks = [
   {
@@ -109,7 +113,7 @@ const experiences = [
   {
     title: "대학교 시절",
     company_name: "한국 외국어 대학교 재학 및 졸업",
-    icon: starbucks,
+    icon: uni,
     iconBg: "#383E56",
     date: "2012.03 - 2018. 03",
     points: [
@@ -122,7 +126,7 @@ const experiences = [
   {
     title: "인턴생활",
     company_name: "한국인공지능 협회 인턴",
-    icon: tesla,
+    icon: intern,
     iconBg: "#E6DEDD",
     date: "2018. 06 - 2018. 11",
     points: [
@@ -143,7 +147,7 @@ const experiences = [
   {
     title: "개발 경력",
     company_name: "개발에 관한 꾸준한 관심",
-    icon: meta,
+    icon: coding,
     iconBg: "#E6DEDD",
     date: "2018 - Present",
     points: [
@@ -198,6 +202,7 @@ const projects = [
     ],
     image: uniqlo,
     source_code_link: "https://github.com/bluedawn123/firstProject",
+
   },
   {
     name: "기아 홈페이지 리뉴얼",
