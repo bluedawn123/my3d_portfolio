@@ -1,20 +1,14 @@
 <div align="center">
-  <br />
-    <a href="https://youtu.be/0fYi8SGA20k?feature=shared" target="_blank">
-      <img src="https://github.com/adrianhajdin/project_3D_developer_portfolio/assets/151519281/4722160a-8e61-403f-a905-728feae1f7e6" alt="Project Banner">
-    </a>
-  <br />
-
+  <h3 align="center">A 3D Developer Portfolio</h3>
   <div>
     <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
     <img src="https://img.shields.io/badge/-Three_JS-black?style=for-the-badge&logoColor=white&logo=threedotjs&color=000000" alt="three.js" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
-
-  <h3 align="center">A 3D Developer Portfolio</h3>
-
    <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
+     3D 기술을 활용한 포트폴리오 웹 애플리케이션입니다. React와 Three.js를 기반으로 구현되었으며, TailwindCSS로 스타일링하고 Vite로 빌드되었습니다.
+    https://github.com/adrianhajdin/project_3D_developer_portfolio 를 베이스로 제작되었으며, 특정 컴포넌트의 motion부분과 3d_models은 수정하지 않고 그대로 사용하였습니다.
+     하지만 단순히 그대로 사용한 것을 뛰어넘어, 기존에 작동하지 않는 EMAILJS 뿐만 아니라 기타 다른 이미지, 구성들은 제 입맛에 맞게 변형하였습니다.
     </div>
 </div>
 
@@ -28,21 +22,10 @@
 6. 🔗 [Links](#links)
 7. 🚀 [More](#more)
 
-## 🚨 Tutorial
-
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
-
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
-
-<a href="https://youtu.be/0fYi8SGA20k?feature=shared" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
 ## <a name="introduction">🤖 Introduction</a>
 
-By developing this project, you will gain hands-on experience in crafting immersive web experiences, mastering 3D libraries, and implementing engaging animations. The combination of creativity and technical skills showcased in this project serves as an excellent learning opportunity for developers seeking to enhance their portfolio and captivate users with cutting-edge web design.
-
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+3D 기술을 활용한 포트폴리오 웹 애플리케이션입니다. React와 Three.js를 기반으로 구현되었으며, TailwindCSS로 스타일링하고 Vite로 빌드되었습니다. 이 프로젝트는 adrianhajdin/project_3D_developer_portfolio를 기반으로 제작되었으며, 일부 컴포넌트(motion 부분 및 3D 모델)는 수정하지 않고 그대로 사용했습니다. 하지만 EmailJS와 같은 기능을 포함해 기존 코드를 개인화하였습니다.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -56,31 +39,30 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Customizable 3D Hero Section**: Includes a 3D desktop model easily customizable to suit specific needs.
+👉 커스터마이징 가능한 3D 히어로 섹션: 3D 데스크톱 모델 포함, 특정 요구 사항에 맞게 쉽게 커스터마이징 가능.
 
-👉 **Interactive Experience and Work Sections**: Utilizes animations powered by framer motion for engaging user experience.
+👉 인터랙티브 경험 및 작업 섹션: 프레이머 모션(Framer Motion)으로 구동되는 애니메이션을 활용하여 몰입감 있는 사용자 경험 제공.
 
-👉 **3D Skills Section**: Showcases skills using 3D geometries through three.js and React Three fiber
+👉 3D 스킬 섹션: Three.js와 React Three Fiber를 사용하여 3D 기하학으로 기술을 시각적으로 표현.
 
-👉 **Animated Projects and Testimonials**: Features animated sections using framer motion for projects and client testimonials.
+👉 애니메이션 프로젝트 및 후기 섹션: 프레이머 모션을 활용해 프로젝트와 클라이언트 후기를 애니메이션으로 표현.
 
-👉 **Contact Section with 3D Earth Model**:Integrates a 3D earth model with email functionality powered by emailjs.
+👉 3D 지구 모델을 포함한 연락처 섹션: 3D 지구 모델과 EmailJS로 구동되는 이메일 기능 통합.
 
-👉 **3D Stars**: Generate stars progressively at random positions using Three.js for background display.
+👉 3D 별 배경: Three.js를 활용하여 배경에 무작위로 별을 생성.
 
-👉 **Consistent Animations**: Implements cohesive animations throughout the website using framer motion.
+👉 일관된 애니메이션: 프레이머 모션을 사용하여 웹사이트 전반에 걸쳐 통일된 애니메이션 구현.
 
-👉 **Responsive Design**: Ensures optimal display and functionality across all devices.
+👉 반응형 디자인: 모든 기기에서 최적의 디스플레이와 기능 보장.
 
-and many more, including code architecture and reusability 
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
-Follow these steps to set up the project locally on your machine.
+로컬에서 실행하고 싶으면 아래를 따라해 보세요.
 
 **Prerequisites**
 
-Make sure you have the following installed on your machine:
+아래 방법대로 설치하시오
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
@@ -89,8 +71,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone git@github.com:adrianhajdin/project_3D_developer_portfolio.git
-cd project_3D_developer_portfolio
+git clone git@github.com:bluedawn123/my3d_portfolio.git
+cd my3d_portfolio
 ```
 
 **Installation**
@@ -98,7 +80,8 @@ cd project_3D_developer_portfolio
 Install the project dependencies using npm:
 
 ```bash
-npm install
+npm install 은 지양됩니다. 레거시한 코드들을 포함하기 때문에,
+npm install --legacy-peer-deps 사용을 권합니다.
 ```
 
 **Set Up Environment Variables**
@@ -119,9 +102,9 @@ Replace the placeholder values with your actual EmailJS credentials. You can obt
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+[http://localhost:5173](http://localhost:5173)  에서 열면 됩니다.
 
-## <a name="snippets">🕸️ Snippets</a>
+## <a name="snippets">🕸️ Snippets</a>(변경된 코드들이 많아, 실제 폴더의 구조와 내용을 확인해주세요)
 
 <details>
 <summary><code>constants.js</code></summary>
@@ -764,13 +747,3 @@ module.exports = {
 ## <a name="links">🔗 Links</a>
 
 Models and Assets used in the project can be found [here](https://drive.google.com/drive/folders/1KVU8iaH0E_JFtShNiR3BgCSA3pawXY4Z)
-
-## <a name="more">🚀 More</a>
-
-**Advance your skills with Next.js Pro Course**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning experience. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://www.jsmastery.pro/ultimate-next-course" target="_blank">
-<img src="https://i.ibb.co/804sPK6/Image-720.png" alt="Project Banner">
-</a>
