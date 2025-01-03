@@ -14,7 +14,8 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <StarsCanvas />  {/* 배경으로 별을 추가했으나 너무 무거워짐 ㅜㅜ 추후 뺄지 넣을지 생각해보기..*/}
+        
+        {/* <StarsCanvas />  배경으로 별을 추가했으나 너무 무거워짐 ㅜㅜ 추후 뺄지 넣을지 생각해보기.. */}
         {/* <Feedbacks /> */}
         <div className='relative z-0'>
           <Contact />
