@@ -47,11 +47,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        저는 JavaScript에 대한 경험을 바탕으로 React, Node.js, Three.js와 같은 프레임워크에 전문성을 가진 숙련된 소프트웨어 개발자입니다. 
+        빠르게 배우는 능력을 갖추고 있으며, 항상 머릿속엔 개발에 대한 생각이 가득합니다.
+        클라이언트와 긴밀히 협력하여 현실적인 문제를 해결하는 효율적이고 확장 가능하며 사용자 친화적인 솔루션을 만듭니다. 
+        함께 여러분의 아이디어를 실현해 보고 싶습니다.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

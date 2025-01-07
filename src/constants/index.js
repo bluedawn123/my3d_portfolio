@@ -33,6 +33,8 @@ import lms from "../assets/lms.png";
 import uni from "../assets/university.png";
 import intern from "../assets/intern.png";
 import coding from "../assets/coding.png";
+import portfolio from "../assets/portfolio.png";
+import shoppingMall from "../assets/shoppingMall.png";
 
 
 export const navLinks = [
@@ -52,19 +54,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "웹 개발자",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "UI/UX 디자이너",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "백엔드 개발자",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "콘텐츠 제작자",
     icon: creator,
   },
 ];
@@ -117,10 +119,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "2012.03 - 2018. 03",
     points: [
-      "우크라이나어와 산업공학을 복수 전공",
-      "따라스 쉐브첸코로 교환 학생 (2015년 8월 ~ 2015년 1월) 연수",
+      "우크라이나어, 산업공학을 복수 전공",
+      "따라스 쉐브첸코로 교환 학생 (2015년 8월 ~ 2016년 1월) 연수",
       "러시아어 자격증인 토르플 2급 보유",
-      "또 뭐 한 거 있는데... 생각해보기",
+      "듀렉스 트렌더즈 6기 대외활동",
     ],
   },
   {
@@ -130,7 +132,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2018. 06 - 2018. 11",
     points: [
-      "한국인공지능 협회의 인턴으로 (주)나인와트에서 5개월간 인턴업무 수행",
+      "한국인공지능 협회의 인턴으로 (주)나인와트에서 4개월간 인턴업무 수행",
       "주로 선형적 데이터의 분석 업무 수행",
     ],
   },
@@ -152,8 +154,7 @@ const experiences = [
     date: "2018 - Present",
     points: [
       "2018년부터 개발에 관한 관심으로 입문 후 지금까지 꾸준히 개발 공부중",
-      "2024년 07월 ~ 2025년 01월까지 그린컴퓨터아카데미에서 개발교육 과정 수료",
-      "더 쓸말 있으면 쓰기"
+      "2024년 07월 ~ 2025년 01월까지 그린컴퓨터아카데미에서 개발교육 과정 수료"
     ],
   },
 ];
@@ -250,6 +251,65 @@ const projects = [
     image: lms,
     source_code_link: "https://github.com/bluedawn123/lms_project",
   },
+  {
+    name: "쇼핑몰 사이트 개발(개발중)",
+    description:
+      "nodeJs와 react를 사용한 트렌디한 디자인의 쇼핑몰 개발",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "black-text-gradient",
+      }
+    ],
+    image: shoppingMall,
+    source_code_link: "https://github.com/bluedawn123/myShop_front",
+  },
+  {
+    name: "React를 활용한 포트폴리오",
+    description:
+      "JavaScript의 라이브러리인 React와 threeJs를 활용하여 제작한 포트폴리오",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "threeJs",
+        color: "blck-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/bluedawn123/my3d_portfolio",
+  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -110,7 +110,7 @@ const Contact = () => {
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="당신의 이름은 무엇입니까?"
+              placeholder="이름이나 별명을 적어주세요!"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -121,7 +121,7 @@ const Contact = () => {
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="당신의 이메일은 무엇입니까?"
+              placeholder="당신의 이메일을 입력해주세요!"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
