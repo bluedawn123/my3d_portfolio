@@ -802,4 +802,13 @@ Models and Assets used in the project can be found [here](https://drive.google.c
 
 3d_portfolio@0.0.0 C:\Users\YOONJUNHO\Desktop\3d_portfolio ├── @emailjs/browser@4.4.1 ├── @eslint/js@9.17.0 ├── @react-three/drei@9.120.5 ├── @react-three/fiber@8.17.10 ├── @types/react-dom@18.3.5 ├── @types/react@18.3.18 ├── @vitejs/plugin-react@4.3.4 ├── autoprefixer@10.4.20 ├── eslint-plugin-react-hooks@5.1.0 ├── eslint-plugin-react-refresh@0.4.16 ├── eslint-plugin-react@7.37.3 ├── eslint@9.17.0 ├── framer-motion@11.15.0 ├── globals@15.14.0 ├── maath@0.10.8 ├── postcss@8.4.49 ├── react-dom@18.3.1 ├── react-router-dom@7.1.1 ├── react-tilt@1.0.2 ├── react-vertical-timeline-component@3.5.3 ├── react@18.3.1 ├── tailwindcss@3.4.17 └── vite@6.0.6
 
++2025-01-07 변경사항. vercel 배포시 버젼 호환 문제로
+npm uninstall react-tilt 로 기존의 react-tile를 제거하고,
+npm install react-parallax-tilt 로 변경.
+
+main버젼 말고 second 버젼으로 배포하였습니다.
+
 ---
+## 📦 vercel 배포
+https://my3d-portfolio-git-second-bluedawn123s-projects.vercel.app/
+
